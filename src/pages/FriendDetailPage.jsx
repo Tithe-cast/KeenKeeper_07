@@ -20,7 +20,6 @@ function EditGoalModal({ friend, onSave, onClose }) {
         </div>
         <p className="text-xs text-[#64748B] mb-4">How often do you want to connect with <strong>{friend.name}</strong>?</p>
 
-        {/* Preset grid */}
         <div className="grid grid-cols-3 gap-2 mb-4">
           {presets.map(d => (
             <button
@@ -118,7 +117,6 @@ export default function FriendDetailPage() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-      {/* Back */}
       <button
         onClick={() => navigate(-1)}
         className="flex items-center gap-1 text-sm text-[#64748B] hover:text-[#244D3F] mb-6 transition-colors group"
@@ -129,7 +127,7 @@ export default function FriendDetailPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-        {/* ─── LEFT COLUMN ─── */}
+        
         <div className="flex flex-col gap-4">
 
           {/* Friend Info Card */}
@@ -180,10 +178,10 @@ export default function FriendDetailPage() {
           </div>
         </div>
 
-        {/* ─── RIGHT COLUMN ─── */}
+        
         <div className="flex flex-col gap-4">
 
-          {/* Stats Row */}
+          
           <div className="grid grid-cols-3 gap-3 fade-in" style={{ animationDelay: '100ms' }}>
             {[
               { label: 'Days Since Contact', value: friend.days_since_contact },
@@ -198,8 +196,6 @@ export default function FriendDetailPage() {
               </div>
             ))}
           </div>
-
-          {/* Relationship Goal */}
           <div className="bg-white border border-[#E9E9E9] rounded-2xl p-5 shadow-sm fade-in" style={{ animationDelay: '160ms' }}>
             <div className="flex items-center justify-between mb-3">
               <h3 className="font-semibold text-[#101727]">Relationship Goal</h3>
@@ -213,7 +209,6 @@ export default function FriendDetailPage() {
             <p className="text-sm text-[#64748B] mb-3">
               Connect every <span className="font-bold text-[#101727] text-base">{friend.goal} days</span>
             </p>
-            {/* Progress bar — matches design: thick, colored, rounded */}
             <div className="h-2.5 bg-[#E9E9E9] rounded-full overflow-hidden">
               <div
                 className="h-full rounded-full transition-all duration-700"
@@ -224,8 +219,6 @@ export default function FriendDetailPage() {
               {friend.days_since_contact} / {friend.goal} days
             </p>
           </div>
-
-          {/* Quick Check-In */}
           <div className="bg-white border border-[#E9E9E9] rounded-2xl p-5 shadow-sm fade-in" style={{ animationDelay: '220ms' }}>
             <h3 className="font-semibold text-[#101727] mb-4">Quick Check-In</h3>
             <div className="grid grid-cols-3 gap-3">

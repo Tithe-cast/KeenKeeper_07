@@ -11,13 +11,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-[#E9E9E9] shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
-        {/* Logo — "Keen" dark, "Keeper" green, matching provided image */}
+        
         <NavLink to="/" className="text-xl tracking-tight select-none">
           <span style={{ color: '#101727', fontWeight: 700 }}>Keen</span>
           <span style={{ color: '#244D3F', fontWeight: 700 }}>Keeper</span>
         </NavLink>
 
-        {/* Nav Links */}
+        
         <nav className="flex items-center gap-1">
           {navLinks.map(({ to, label, icon: Icon }) => (
             <NavLink

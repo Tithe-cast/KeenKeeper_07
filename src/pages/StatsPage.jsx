@@ -20,7 +20,6 @@ const CustomTooltip = ({ active, payload }) => {
 export default function StatsPage() {
   const { entries } = useTimeline()
 
-  // Filter out meetup
   const relevant = entries.filter(e => e.type !== 'meetup')
 
   const counts = relevant.reduce((acc, e) => {
@@ -37,7 +36,6 @@ export default function StatsPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
       <h1 className="text-3xl font-bold text-[#101727] mb-8">Friendship Analytics</h1>
 
-      {/* Pie chart only — no status summary cards */}
       <div className="bg-white border border-[#E9E9E9] rounded-2xl p-6 shadow-sm fade-in">
         <p className="text-sm font-semibold text-[#101727] mb-0.5">By Interaction Type</p>
         <p className="text-xs text-[#64748B] mb-6">{relevant.length} total interactions logged</p>
@@ -76,7 +74,6 @@ export default function StatsPage() {
               </PieChart>
             </ResponsiveContainer>
 
-            {/* Breakdown */}
             <div className="grid grid-cols-3 gap-4 mt-4 pt-5 border-t border-[#E9E9E9]">
               {data.map(({ type, name, value }) => {
                 const Icon = TYPE_ICONS[type]

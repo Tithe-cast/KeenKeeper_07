@@ -32,8 +32,6 @@ export default function HomePage() {
           {!friendsLoading && friends.length > 0 && <SummaryCards friends={friends} />}
         </div>
       </section>
-
-      {/* Friends Grid */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-lg font-semibold text-[#101727]">Your Friends</h2>

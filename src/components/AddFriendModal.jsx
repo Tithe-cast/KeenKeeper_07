@@ -15,7 +15,7 @@ export default function AddFriendModal({ onClose }) {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setSubmitting(true)
-    await new Promise(r => setTimeout(r, 400)) // brief animation delay
+    await new Promise(r => setTimeout(r, 400)) 
     addFriend({
       name: form.name.trim(),
       email: form.email.trim(),

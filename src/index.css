@@ -34,7 +34,6 @@ body {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
-
 .spinner {
   width: 38px;
   height: 38px;
@@ -43,12 +42,10 @@ body {
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
 }
-
 /* Toast overrides */
 .react-hot-toast {
   font-family: 'DM Sans', sans-serif !important;
 }
-
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
