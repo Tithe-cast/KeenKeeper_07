@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sarah.chen@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman orientation at university. We survived finals together and have been inseparable since. Loves hiking and photography.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "marcus.j@work.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "Senior engineer who mentored me through my first job. Incredibly sharp mind and always willing to help. We grab coffee every few weeks.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 3,
+    "name": "Olivia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "olivia.martinez@email.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": ["family", "childhood"],
+    "bio": "Cousin and childhood best friend. We grew up in the same neighborhood and share so many memories. Family reunions are never boring with her around.",
+    "goal": 21,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Tom Baker",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "tombaker@design.io",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["work", "creative"],
+    "bio": "Brilliant UI designer I collaborate with on freelance projects. Has an incredible eye for detail and always pushes for better UX.",
+    "goal": 21,
+    "next_due_date": "2026-04-30"
+  },
+  {
+    "id": 5,
+    "name": "Aisha Patel",
+    "picture": "https://randomuser.me/api/portraits/women/23.jpg",
+    "email": "aisha.patel@healthcorp.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["college", "travel buddy"],
+    "bio": "We backpacked across Southeast Asia together after graduation. Now she's saving lives as a doctor, but we try to do one trip together each year.",
+    "goal": 30,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 6,
+    "name": "Ryan O'Brien",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "ryan.obrien@startup.co",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "startup"],
+    "bio": "Co-founder of a startup we both almost launched together. He went his own way but we exchange ideas regularly. Great sounding board for business ideas.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/79.jpg",
+    "email": "lisa.n@bookclub.org",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["hobby", "book club"],
+    "bio": "We met at a local book club and immediately bonded over our love of mystery novels. Monthly book club meetings are the highlight of my social calendar.",
+    "goal": 21,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Okonkwo",
+    "picture": "https://randomuser.me/api/portraits/men/72.jpg",
+    "email": "dan.okonkwo@agency.net",
+    "days_since_contact": 90,
+    "status": "overdue",
+    "tags": ["college", "old friend"],
+    "bio": "Roommate for three years in university. We've drifted since graduation but whenever we reconnect it's like no time has passed at all.",
+    "goal": 60,
+    "next_due_date": "2026-02-01"
+  }
+]

@@ -1,0 +1,11 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Toaster } from 'react-hot-toast'
+import { TimelineProvider } from './context/TimelineContext'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
+import FriendDetailPage from './pages/FriendDetailPage'
+import TimelinePage from './pages/TimelinePage'
+import StatsPage from './pages/StatsPage'
+import NotFoundPage from './pages/NotFoundPage'
+
