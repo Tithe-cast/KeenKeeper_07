@@ -4,3 +4,67 @@
 @tailwind components;
 @tailwind utilities;
 
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #101727;
+  background-color: #F8FAFC;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Staggered fade-in for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 0.45s ease-out forwards;
+}
+
+/* Loading spinner */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  width: 38px;
+  height: 38px;
+  border: 3px solid #E9E9E9;
+  border-top-color: #244D3F;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+/* Toast overrides */
+.react-hot-toast {
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D9D9;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748B;
+}
